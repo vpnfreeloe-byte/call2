@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "io.github.vpnfreeloe_byte.twa",
+    "package_name": "com.tito.myfakecall",
     "sha256_cert_fingerprints":
-    ["C3:15:6A:84:39:D1:6A:FE:26:BD:6E:74:DC:D7:37:CB:AB:5A:0B:DF:38:34:9B:94:22:AF:E2:0B:6B:D0:F2:29"] 
+    ["1D:25:50:4D:BD:59:B1:DB:B2:5F:CC:71:4F:C4:A4:E4:62:81:F2:AB:91:DF:72:9E:41:0E:81:D6:51:86:12:83"] 
   }
 }]
