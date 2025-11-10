@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.vpnfreeloe_byte.call2",
+    "sha256_cert_fingerprints":
+    ["96:B8:BC:82:91:95:BB:27:CC:1E:E9:B5:1D:BB:60:F3:8A:AD:8A:E7:AE:05:05:B6:2B:2B:53:BC:67:BA:D6:C5"] 
+  }
+}]
