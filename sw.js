@@ -1,24 +1,23 @@
-// (جديد) تم تغيير اسم الكاش إلى v2
-const CACHE_NAME = 'fake-call-cache-v2';
+// (جديد) تم تغيير اسم الكاش إلى v3
+const CACHE_NAME = 'fake-call-cache-v3';
 
 // قائمة الملفات التي سيتم تخزينها للعمل بدون إنترنت
 const urlsToCache = [
-  '.', // الصفحة الرئيسية
-  'index.html', // ملف HTML
-  'manifest.json', // الملف الذي أنشأناه
+  '.',
+  'index.html',
+  'manifest.json',
 
-  // ملفات Font Awesome المحلية
   'fontawesome/all.min.css',
 
-  // (تم تعديل هذا المسار)
+  // (جديد) إضافة جميع الخطوط المطلوبة
   'webfonts/fa-solid-900.woff2', 
+  'webfonts/fa-brands-400.woff2',
+  'webfonts/fa-regular-400.woff2',
 
-  // ملفات الصوت الافتراضية
   'sams.mp3',
   'hello.mp3',
   'video_sound.mp3',
 
-  // الأيقونات
   'icon-192.png',
   'icon-512.png'
 ];
@@ -31,7 +30,7 @@ self.addEventListener('install', event => {
         console.log('Opened cache');
         return cache.addAll(urlsToCache);
       })
-      .then(() => self.skipWaiting()) // (جديد) يجبر على التحديث
+      .then(() => self.skipWaiting()) 
   );
 });
 
